@@ -145,7 +145,7 @@ explosion_image, explosion_image_rect = load_image("explosion_alpha.png", None, 
 
 soundtrack_path = os.path.join('resources', '516494_Zone-X.mp3')
 pygame.mixer.music.load(soundtrack_path)
-pygame.mixer.music.set_volume(0.25)
+pygame.mixer.music.set_volume(0.4)
 
 missile_sound = load_sound("laser6.wav")
 ship_thrust_sound = load_sound("enginehum3.ogg")
